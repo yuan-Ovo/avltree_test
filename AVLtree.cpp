@@ -20,9 +20,18 @@ template <typename T>
 class AVLTree {
 
 private:
-    int _size;
-    node<T>* _root;
+    int _size; //树规模
+    node<T>* _root; //根节点
 public:
+
+    int getHeight();
+
+    void preOrder();
+    void inOrder();
+    void postOrder();
+
+    node<T>* search(T key);
+
     void insertKey(int value);
     void deleteKey(int value);
     bool balance(node<T>* root);
