@@ -78,34 +78,49 @@ CMakeFiles/avltree.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/avltree.dir/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\dev\date_structure\chapter_7\avltree\main.cpp -o CMakeFiles\avltree.dir\main.cpp.s
 
-CMakeFiles/avltree.dir/AVLtree.cpp.obj: CMakeFiles/avltree.dir/flags.make
-CMakeFiles/avltree.dir/AVLtree.cpp.obj: ../AVLtree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\date_structure\chapter_7\avltree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/avltree.dir/AVLtree.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\avltree.dir\AVLtree.cpp.obj -c C:\dev\date_structure\chapter_7\avltree\AVLtree.cpp
+CMakeFiles/avltree.dir/AVLTree.cpp.obj: CMakeFiles/avltree.dir/flags.make
+CMakeFiles/avltree.dir/AVLTree.cpp.obj: ../AVLTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\date_structure\chapter_7\avltree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/avltree.dir/AVLTree.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\avltree.dir\AVLTree.cpp.obj -c C:\dev\date_structure\chapter_7\avltree\AVLTree.cpp
 
-CMakeFiles/avltree.dir/AVLtree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/avltree.dir/AVLtree.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dev\date_structure\chapter_7\avltree\AVLtree.cpp > CMakeFiles\avltree.dir\AVLtree.cpp.i
+CMakeFiles/avltree.dir/AVLTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/avltree.dir/AVLTree.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dev\date_structure\chapter_7\avltree\AVLTree.cpp > CMakeFiles\avltree.dir\AVLTree.cpp.i
 
-CMakeFiles/avltree.dir/AVLtree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/avltree.dir/AVLtree.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\dev\date_structure\chapter_7\avltree\AVLtree.cpp -o CMakeFiles\avltree.dir\AVLtree.cpp.s
+CMakeFiles/avltree.dir/AVLTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/avltree.dir/AVLTree.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\dev\date_structure\chapter_7\avltree\AVLTree.cpp -o CMakeFiles\avltree.dir\AVLTree.cpp.s
+
+CMakeFiles/avltree.dir/test.cpp.obj: CMakeFiles/avltree.dir/flags.make
+CMakeFiles/avltree.dir/test.cpp.obj: ../test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\date_structure\chapter_7\avltree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/avltree.dir/test.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\avltree.dir\test.cpp.obj -c C:\dev\date_structure\chapter_7\avltree\test.cpp
+
+CMakeFiles/avltree.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/avltree.dir/test.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dev\date_structure\chapter_7\avltree\test.cpp > CMakeFiles\avltree.dir\test.cpp.i
+
+CMakeFiles/avltree.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/avltree.dir/test.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\dev\date_structure\chapter_7\avltree\test.cpp -o CMakeFiles\avltree.dir\test.cpp.s
 
 # Object files for target avltree
 avltree_OBJECTS = \
 "CMakeFiles/avltree.dir/main.cpp.obj" \
-"CMakeFiles/avltree.dir/AVLtree.cpp.obj"
+"CMakeFiles/avltree.dir/AVLTree.cpp.obj" \
+"CMakeFiles/avltree.dir/test.cpp.obj"
 
 # External object files for target avltree
 avltree_EXTERNAL_OBJECTS =
 
 avltree.exe: CMakeFiles/avltree.dir/main.cpp.obj
-avltree.exe: CMakeFiles/avltree.dir/AVLtree.cpp.obj
+avltree.exe: CMakeFiles/avltree.dir/AVLTree.cpp.obj
+avltree.exe: CMakeFiles/avltree.dir/test.cpp.obj
 avltree.exe: CMakeFiles/avltree.dir/build.make
 avltree.exe: CMakeFiles/avltree.dir/linklibs.rsp
 avltree.exe: CMakeFiles/avltree.dir/objects1.rsp
 avltree.exe: CMakeFiles/avltree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\dev\date_structure\chapter_7\avltree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable avltree.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\dev\date_structure\chapter_7\avltree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable avltree.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\avltree.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

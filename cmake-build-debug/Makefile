@@ -128,29 +128,29 @@ avltree/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\avltree.dir\build.make CMakeFiles/avltree.dir/build
 .PHONY : avltree/fast
 
-AVLtree.obj: AVLtree.cpp.obj
-.PHONY : AVLtree.obj
+AVLTree.obj: AVLTree.cpp.obj
+.PHONY : AVLTree.obj
 
 # target to build an object file
-AVLtree.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\avltree.dir\build.make CMakeFiles/avltree.dir/AVLtree.cpp.obj
-.PHONY : AVLtree.cpp.obj
+AVLTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\avltree.dir\build.make CMakeFiles/avltree.dir/AVLTree.cpp.obj
+.PHONY : AVLTree.cpp.obj
 
-AVLtree.i: AVLtree.cpp.i
-.PHONY : AVLtree.i
+AVLTree.i: AVLTree.cpp.i
+.PHONY : AVLTree.i
 
 # target to preprocess a source file
-AVLtree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\avltree.dir\build.make CMakeFiles/avltree.dir/AVLtree.cpp.i
-.PHONY : AVLtree.cpp.i
+AVLTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\avltree.dir\build.make CMakeFiles/avltree.dir/AVLTree.cpp.i
+.PHONY : AVLTree.cpp.i
 
-AVLtree.s: AVLtree.cpp.s
-.PHONY : AVLtree.s
+AVLTree.s: AVLTree.cpp.s
+.PHONY : AVLTree.s
 
 # target to generate assembly for a file
-AVLtree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\avltree.dir\build.make CMakeFiles/avltree.dir/AVLtree.cpp.s
-.PHONY : AVLtree.cpp.s
+AVLTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\avltree.dir\build.make CMakeFiles/avltree.dir/AVLTree.cpp.s
+.PHONY : AVLTree.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -176,6 +176,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\avltree.dir\build.make CMakeFiles/avltree.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test.obj: test.cpp.obj
+.PHONY : test.obj
+
+# target to build an object file
+test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\avltree.dir\build.make CMakeFiles/avltree.dir/test.cpp.obj
+.PHONY : test.cpp.obj
+
+test.i: test.cpp.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\avltree.dir\build.make CMakeFiles/avltree.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\avltree.dir\build.make CMakeFiles/avltree.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... avltree
-	@echo ... AVLtree.obj
-	@echo ... AVLtree.i
-	@echo ... AVLtree.s
+	@echo ... AVLTree.obj
+	@echo ... AVLTree.i
+	@echo ... AVLTree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

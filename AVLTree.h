@@ -37,12 +37,12 @@ public:
     T maximum();
     T minimum();
 
-    void insertKey(int value);
-    void removeKey(int value);
+    void insertKey(T value);
+    void removeKey(T value);
 
     void destroy();
-
     void print();
+
 private:
     int getHeight(node<T>* root);
     int height(node<T>* root);
@@ -53,6 +53,9 @@ private:
     //搜索节点
     node<T>* search(node<T>* root, T key);
     node<T>* iteratorSearch(node<T>*, T key);
+
+    node<T>* maximum(node<T>* root);
+    node<T>* minimum(node<T>* root);
     //树的旋转
     node<T>* leftLeftRotation(node<T>* k2);
     node<T>* rightRightRotation(node<T>* k1);
@@ -61,14 +64,14 @@ private:
     //插入节点
     node<T>* insert(node<T>* &tree, T key);
     //删除节点
-    node<T>* remove(node<T>* &tree, T key);
+    node<T>* remove(node<T>* &tree, node<T>* root);
     //销毁树
     void destroy(node<T>* &tree);
     //打印树
     void print(node<T>* tree, T key, int direction);
     //检查树是否平衡
-    bool balance(node<T>* root);
-    int balanceValue(node<T>* root);
+    //bool balance(node<T>* root);
+    //int balanceValue(node<T>* root);
 
 };
 #endif //AVLTREE_AVLTREE_H

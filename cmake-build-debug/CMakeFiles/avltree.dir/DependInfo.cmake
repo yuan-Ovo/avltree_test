@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/dev/date_structure/chapter_7/avltree/AVLtree.cpp" "C:/dev/date_structure/chapter_7/avltree/cmake-build-debug/CMakeFiles/avltree.dir/AVLtree.cpp.obj"
+  "C:/dev/date_structure/chapter_7/avltree/AVLTree.cpp" "C:/dev/date_structure/chapter_7/avltree/cmake-build-debug/CMakeFiles/avltree.dir/AVLtree.cpp.obj"
   "C:/dev/date_structure/chapter_7/avltree/main.cpp" "C:/dev/date_structure/chapter_7/avltree/cmake-build-debug/CMakeFiles/avltree.dir/main.cpp.obj"
+  "C:/dev/date_structure/chapter_7/avltree/test.cpp" "C:/dev/date_structure/chapter_7/avltree/cmake-build-debug/CMakeFiles/avltree.dir/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
