@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/dev/date_structure/chapter_7/avltree/AVLTree.cpp
+bits/stdc++.h
+-
+AVLTree.h
+C:/dev/date_structure/chapter_7/avltree/AVLTree.h
+
+C:/dev/date_structure/chapter_7/avltree/AVLTree.h
+
+C:/dev/date_structure/chapter_7/avltree/main.cpp
+bits/stdc++.h
+-
+AVLTree.h
+C:/dev/date_structure/chapter_7/avltree/AVLTree.h
+
