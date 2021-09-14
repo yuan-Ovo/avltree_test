@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/dev/date_structure/chapter_7/avltree/AVLTree.h">
+			<Option target="avltree"/>
+		</Unit>
 		<Unit filename="C:/dev/date_structure/chapter_7/avltree/AVLtree.cpp">
+			<Option target="avltree"/>
+		</Unit>
+		<Unit filename="C:/dev/date_structure/chapter_7/avltree/AVLtree.h">
 			<Option target="avltree"/>
 		</Unit>
 		<Unit filename="C:/dev/date_structure/chapter_7/avltree/main.cpp">

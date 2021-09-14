@@ -2,45 +2,25 @@
 // Created by LY on 2021/9/13.
 //
 #include<bits/stdc++.h>
+#include"AVLTree.h"
 using namespace std;
 
-template<typename T>
-class node {
-public:
-    T key;
-    int height;
-    node * left;
-    node * right;
-
-    node(T value, node<T>* le, node<T>* ri) : key(value), height(0), left(le), right(ri) {}
-};
-
+/*
+ * 获取树高
+ * */
+template <typename T>
+int AVLTree<T>::getHeight(){
+    return getHeight(_root);
+}
 
 template <typename T>
-class AVLTree {
+int AVLTree<T>::getHeight(node<T> *root) {
+    if (!root)
+        return 0;
+    return max(getHeight(root->left), getHeight(root->right)) + 1;
+}
 
-private:
-    int _size; //树规模
-    node<T>* _root; //根节点
-public:
 
-    int getHeight();
 
-    void preOrder();
-    void inOrder();
-    void postOrder();
-
-    node<T>* search(T key);
-
-    void insertKey(int value);
-    void deleteKey(int value);
-    bool balance(node<T>* root);
-    int balanceValue(node<T>* root);
-    node<T>* search(T key);
-    void RR(node<T>* root);
-    void LL(node<T>* root);
-    void LR(node<T>* root);
-    void RL(node<T>* root);
-};
 
 
