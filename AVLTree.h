@@ -45,6 +45,7 @@ public:
     void print();
 private:
     int getHeight(node<T>* root);
+    int height(node<T>* root);
     //前中后序遍历
     void preOrder(node<T>* root) const;
     void inOrder(node<T>* root) const;
